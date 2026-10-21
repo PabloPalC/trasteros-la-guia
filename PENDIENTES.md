@@ -14,6 +14,13 @@ Datos inventados o supuestos que hay que confirmar con la familia. En el HTML si
 - [ ] Precios reales (ahora desde 45 / 85 / 140 €/mes, IVA incluido). También en `script.js` (array `sizes`), tarjeta flotante del hero, cifras, meta description, title, FAQ y JSON-LD (`makesOffer`, `priceRange`).
 - [ ] Alquiler mínimo / permanencia.
 
+## Coches y embarcaciones
+- [ ] Precios de guarda de coche y de embarcación (ahora "Consultar precio").
+- [ ] ¿Plaza cubierta o al aire libre?
+- [ ] Tamaño máximo de embarcación (eslora) y si tiene que venir en remolque.
+- [ ] ¿Motos, caravanas o autocaravanas también? (ahora no se mencionan).
+- [ ] "A minutos del puerto de Cartagena" (sección, FAQ y texto SEO).
+
 ## Afirmaciones por confirmar
 - [ ] Cámaras grabando 24 h (tarjeta del hero y cifra "24 h").
 - [ ] "A 5 minutos del centro" (hero, ventajas y cifras).
