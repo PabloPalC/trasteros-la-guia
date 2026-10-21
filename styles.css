@@ -33,11 +33,8 @@ h1, h2, h3 { font-family: Montserrat, sans-serif; line-height: 1.12; letter-spac
 .skip { position: absolute; left: -9999px; top: 8px; z-index: 100; background: var(--orange); color: #fff; padding: 8px 14px; border-radius: 8px; }
 .skip:focus { left: 8px; }
 
-/* Marcas de boceto */
-.pending { color: var(--orange) !important; outline: 1.5px dashed var(--orange); outline-offset: 3px; border-radius: 4px; }
-.pending-inline { outline: 1.5px dashed var(--orange); outline-offset: 3px; border-radius: 4px; }
+/* .pending / .pending-inline marcan datos por confirmar (ver PENDIENTES.md); sin estilo visual */
 .pending-soft { color: var(--orange-2); }
-.pending-tag { display: inline-block; margin-left: 8px; font-size: .65rem; padding: 2px 8px; border: 1px dashed currentColor; border-radius: 999px; letter-spacing: .08em; vertical-align: middle; }
 
 .scroll-progress { position: fixed; top: 0; left: 0; height: 3px; width: 100%; background: linear-gradient(90deg, var(--orange), var(--orange-2)); transform-origin: 0 50%; transform: scaleX(0); z-index: 100; }
 
@@ -197,7 +194,6 @@ h1, h2, h3 { font-family: Montserrat, sans-serif; line-height: 1.12; letter-spac
 .stats__inner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 52px 0; text-align: center; }
 .stat strong { display: block; font: 900 clamp(2.2rem, 5vw, 3.2rem) Montserrat, sans-serif; line-height: 1; }
 .stat span { font-weight: 500; opacity: .92; }
-.stats .pending { color: var(--navy) !important; outline-color: var(--navy); }
 
 /* Para quién */
 .audience { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
@@ -241,7 +237,7 @@ h1, h2, h3 { font-family: Montserrat, sans-serif; line-height: 1.12; letter-spac
 .gallery { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 210px; gap: 16px; }
 .gallery .ph:nth-child(1) { grid-column: span 2; grid-row: span 2; }
 .gallery .ph:nth-child(4) { grid-column: span 2; }
-.ph { display: grid; place-items: center; border-radius: var(--radius); border: 2px dashed var(--orange); background: repeating-linear-gradient(45deg, #fff, #fff 12px, #fdf1e6 12px, #fdf1e6 24px); color: var(--orange-dark); font-weight: 700; text-align: center; padding: 12px; transition: transform .4s var(--ease); }
+.ph { display: grid; place-items: center; border-radius: var(--radius); background: linear-gradient(135deg, var(--navy-2), var(--blue) 60%, var(--blue-light)); color: rgba(255,255,255,.85); font-weight: 700; text-align: center; padding: 12px; transition: transform .4s var(--ease); }
 .ph:hover { transform: scale(1.02); }
 
 /* Opiniones */
@@ -249,7 +245,7 @@ h1, h2, h3 { font-family: Montserrat, sans-serif; line-height: 1.12; letter-spac
 .review { background: #fff; border-radius: var(--radius); padding: 28px; border: 1px solid var(--line); transition: transform .35s var(--ease), box-shadow .35s; }
 .review:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
 .stars { color: #fbbc04; font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 12px; }
-.ph-text { color: var(--orange-dark); font-style: italic; outline: 1.5px dashed var(--orange); outline-offset: 4px; border-radius: 4px; margin-bottom: 14px; }
+.ph-text { color: var(--muted); font-style: italic; margin-bottom: 14px; }
 .review footer { font-weight: 600; color: var(--muted); font-size: .9rem; }
 
 /* FAQ */
